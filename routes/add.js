@@ -4,7 +4,7 @@ exports.addFriend = function(request, response) {
 	var newFriend = {
 		"name": request.query.name,
 		"description": request.query.description,
-		"imageURL": "http://lorepixel.com/400/400/people"			
+		"imageURL": "http://loremflickr.com/400/400/people"			
 	}
 	console.log(newFriend);
 	data.friends.push(newFriend);
